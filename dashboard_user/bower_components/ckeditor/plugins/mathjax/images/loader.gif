@@ -1,0 +1,31 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 317398316,
+    "shortname": "metal.refined",
+    "displayName": {
+        "token": "metal.refined",
+        "english": "High Quality Metal"
+    },
+    "displayDescription": {
+        "token": "metal.refined.desc",
+        "english": "High quality metal suitable for armor and weapons construction."
+    },
+    "iconSprite": {
+        "instanceID": 120824
+    },
+    "category": 3,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 100,
+    "quickDespawn": false,
+    "rarity": 3,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 112564
+    },
+    "inve

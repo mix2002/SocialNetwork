@@ -1,0 +1,42 @@
+/* Chat containers */
+.chat_admin {
+    border: 2px solid #367fa9;
+    background-color: #062c33;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    color:#fff;
+}
+
+/* Darker chat container */
+.chat_user {
+    border: 2px solid #062c33;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    color:#000000;
+}
+
+/* Clear floats */
+.chat_admin::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Clear floats */
+.chat_user::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.modal-body {
+    max-height: calc(100vh - 212px);
+    overflow-y: auto;
+}
+
+
+.chat-1{
+    font-weight: bold;
+}

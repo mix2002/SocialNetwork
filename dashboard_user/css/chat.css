@@ -1,0 +1,32 @@
+/* Chat containers */
+.chat_admin {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* Darker chat container */
+.chat_user {
+    border-color: #ccc;
+    background-color: #ddd;
+}
+
+/* Clear floats */
+.chat_admin::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Clear floats */
+.chat_user::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.modal-body {
+    max-height: calc(100vh - 212px);
+    overflow-y: auto;
+}
